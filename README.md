@@ -1,5 +1,7 @@
 ## NSAPDEV Simulated Multi Threaded Toll System with Vehicle Progress Tracking
-This project simulates a multi-threaded toll system for a 100-kilometer highway with multiple entry and exit points. Each vehicle’s journey is simulated using a separate thread, dynamically updating its progress, remaining time, and estimated travel duration. Toll Booth Clients determine vehicle entry and intended exit, while the central TollSystemServer calculates toll fees, ETAs, and logs all transactions in JSON files. The server maintains real-time highway statistics, including vehicles in transit, exited vehicles, total fees collected, and total vehicles processed, and provides a CLI for monitoring. This system demonstrates network programming, multi-threading, and real-time simulation of a high-concurrency environment without using a database.<br><br>
+<p align="justify">
+This project simulates a multi-threaded toll system for a 100-kilometer highway with multiple entry and exit points. Each vehicle’s journey is simulated using a separate thread, dynamically updating its progress, remaining time, and estimated travel duration. Toll Booth Clients determine vehicle entry and intended exit, while the central TollSystemServer calculates toll fees, ETAs, and logs all transactions in JSON files. The server maintains real-time highway statistics, including vehicles in transit, exited vehicles, total fees collected, and total vehicles processed, and provides a CLI for monitoring. This system demonstrates network programming, multi-threading, and real-time simulation of a high-concurrency environment without using a database.<br>
+</p>
 Created by:<br> Jose Mari Del Castillo <br>
 Alyanna Lim<br><br>
 Submission Date: April 10, 2025
